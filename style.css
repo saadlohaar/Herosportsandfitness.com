@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Teko', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #000;
+}
+
+.navbar nav{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.navbar nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar nav ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin: 15px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.navbar nav ul li a:hover{
+    color: #FFD700;
+    text-decoration-line: underline;
+}
+
+.col-2 p{
+  
+    font-size: 22px;
+    color: #fff;
+    font-family:Courier, monospace	;
+    font-weight: 600;
+    
+
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    
+    flex-basis: 50%;
+    min-width: 300px;
+    padding-left: 50px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    color: #FFd700;
+    font-style: italic; 
+    font-size: 75px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 p{
+font-family: 'Mukta', sans-serif;
+}
+.col-2 .btn{
+    font-family: 'Tajawal', sans-serif;
+    
+    display: inline-block;
+    background: #FFD700;
+    color: #000000;
+    padding: 5px 25px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #fff;
+}
+.header{
+    background: #000;
+}
+.header .row{
+    margin-top: 70px;
+}
+.mid-bg{
+    background: linear-gradient(#fff,#999,#fff)
+}
+.categories{
+    margin: 70px 0px;
+} 
+.categories .col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    transition: 0.3s;
+    padding: 20px;
+}
+.col-3 img:hover{
+    transform: scale(1.1);
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 35px;
+    text-decoration-line: underline;
+    text-decoration-color: #ffd800;
+    font-family: 'Tajawal', sans-serif;
+}
+.col-3 h2{
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.col-3 ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+       font-family: FreeMono, monospace		;
+    font-weight: 800;
+}
+
+.col-3 ul li{
+    text-align: center;
+
+}
+.col-3 ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.col-3 ul li a:hover{
+    color: #000;
+    text-decoration-line: underline;
+    text-decoration-color: #ffd800;
+    transform: scale(1.1);
+}
+.contact-us{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    background: linear-gradient(#fff,#000)
+}
+.contact-box{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+.left{
+    background: url("images/map.png") no-repeat center;
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.3);
+    background-size: cover;
+    height: 100%;
+    
+}
+.right{
+    padding: 25px 40px;
+}
+h3{
+    position: relative;
+    padding: 0 0;
+    font-size: 50px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #ffd700;
+    
+}
+
+}
+.right p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.form-control{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    background-color: rgba(150,150,150,0.3);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border-radius: 1.5rem;
+    transition: 0.3s;
+}
+.form-control:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+textarea{
+    min-height: 150px;
+}
+.contact-box .btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2rem;
+}
+.contact-box .btn:hover{
+    background-color: #FFB800;
+}
+.form-control:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+.footer{
+    background: #000;
+}
+.address{
+    color: white;
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+}
+.address h5{
+    
+    margin: 11px;
+    padding-left: 205px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.address img{
+    align-items: center;
+    width: 18px;
+    padding-top: 5px
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 20px;
+    padding-top: 40px; 
+    
+}
+.footer nav{
+    flex: 1;
+    text-align: center;
+}
+.footer nav ul{
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+}
+.footer nav ul li{
+    font-size: 18px;
+    display: inline-block;
+    margin: 11px;
+}
+.footer nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    font-family: 'Tajawal', sans-serif;
+}
+.footer nav ul li a:hover{
+    color: #FFD700;
+    text-decoration-line: underline;
+}
+.hsf-gallery{
+    padding-top: 15vh;
+    height: 60vh;
+    align-items: center;
+}
+.hsf-gallery h1{
+    text-align: center;
+    color: #fff;
+    font-size: 68px;
+    
+}
+.hsf-gallery h2{
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    margin: 0px;
+    text-decoration: none;
+    margin-top: 20px
+}
+.gallery-block{
+    display: block;
+    margin: auto;
+    width: auto;
+}
+.gallery-block h2{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: aliceblue;
+    width: auto;
+}
+.photos-grid{
+    min-width: 360px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.photos-grid img{
+    width: 295px;
+    margin: 5px;
+    min-height: 240px;
+}
+
+
+
+
+
+
+
